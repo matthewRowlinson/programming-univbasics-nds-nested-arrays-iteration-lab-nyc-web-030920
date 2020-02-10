@@ -27,8 +27,7 @@ def join_ingredients(src)
     iri += 2
     iri2 += 1 
   end
-  #ingredients2 
-  ingredients_3
+  ingredients2 
 end
 
 def find_greater_pair(src)
