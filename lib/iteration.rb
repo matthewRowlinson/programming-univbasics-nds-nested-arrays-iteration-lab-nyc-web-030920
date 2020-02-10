@@ -8,14 +8,17 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   ingredients = []
   ingredients2 = []
+  ingredients3[]
   outer_i = 0
   ingredients_i = 0 
   while outer_i < src.count do 
     inner_i = 0
     while inner_i < src[outer_i].count do 
+      ingredients3[ingredients_i] = "I love #{src[outer_i][inner_i]} and #{src[outer_i][inner_i + 1]} on my pizza"
       ingredients[ingredients_i] = src[outer_i][inner_i]
       inner_i += 1 
-      ingredients_i += 1 
+      #ingredients_i += 1
+      ingredients_i += 2 
     end 
   outer_i += 1 
   #ingredients_i += 1
@@ -27,7 +30,8 @@ def join_ingredients(src)
     iri += 2
     iri2 += 1 
   end
-  ingredients2 
+  #ingredients2 
+  ingredients_3
 end
 
 def find_greater_pair(src)
